@@ -1,0 +1,11 @@
+﻿Circle misol = new Circle();
+misol.Radius = Convert.ToDouble(Console.ReadLine());
+misol.PI = Convert.ToDouble(Console.ReadLine());
+var area = misol.GetArea();
+var diametr = misol.GetDiametr();
+var circ = misol.GetCircumference();
+var radius = misol.GetRadius();
+System.Console.WriteLine(area);
+System.Console.WriteLine(diametr);
+System.Console.WriteLine(circ);
+System.Console.WriteLine(radius);
